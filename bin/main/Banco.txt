@@ -1,0 +1,10 @@
+CREATE DATABASE empregadora;
+
+USE empregadora;
+
+CREATE TABLE Usuario (
+Id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+Nome varchar(50) NOT NULL,
+Email varchar(50) NOT NULL,
+Posicao varchar(50) NOT NULL,
+Cargo varchar(50) NOT NULL);
